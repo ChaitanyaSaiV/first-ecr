@@ -5,6 +5,8 @@ on:
     branches:
       - main    # Trigger on push to the main branch
 
+  workflow_dispatch:  # allow manual run from Actions tab
+
 jobs:
   build:
     runs-on: ubuntu-latest
