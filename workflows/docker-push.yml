@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main    # Trigger on push to the main branch
-    tags:
-      - 'v*'    # You can also trigger on tags like v1, v2, etc.
 
 jobs:
   build:
