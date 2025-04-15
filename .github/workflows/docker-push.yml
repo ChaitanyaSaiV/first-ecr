@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-and-push:
-    uses: github.com/ChaitanyaSaiV/.github-workflows/docker-push.yml
+    uses: github.com/ChaitanyaSaiV/.github-workflows/docker-push.yml@main
     secrets: inherit
     with:
       ECR_REPOSITORY_NAME: ${{ github.event.repository.name }} # or a specific name if needed
